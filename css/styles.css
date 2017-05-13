@@ -5,10 +5,10 @@
 .header {
   background-color: rgba(0, 0, 0, 0.4);
   position: fixed;
-  width: 101%;
+  width: 103%;
   height: 147px;
   padding-left: 8%;
-  padding-right: 3%;
+  padding-right: 8%;
   padding-top: 100px;
   z-index: 2;
 }
@@ -57,16 +57,9 @@ h6 {
 }
 
 .center {
-  text-align: center;
+  text-align: right;
   letter-spacing: 6px;
   padding-top: 15px;
-}
-
-.container {
-  padding-top: 100px;
-  padding-left: 5%;
-  padding-right: 5%;
-  width: 100%;
 }
 
 .container2 {
@@ -81,6 +74,30 @@ h6 {
   padding-right: 25px;
   padding-top: 230px;
   width: 100%;
+}
+
+.container {
+  padding-top: 100px;
+  padding-left: 5%;
+  padding-right: 5%;
+  width: 100%;
+}
+
+.footer{
+    color: #D7D7D7;
+    text-align: right;
+    padding-right: 8%;
+    padding-top: 5px;
+    letter-spacing: 7px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height:50px;
+    margin: 0 auto -2150px;
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    z-index: 2;
 }
 
 .white {
@@ -170,20 +187,33 @@ h6 {
   transition: .3s transform;
 }
 
-@media screen and (max-width: 2000px) and (min-width: 1024px) {
+@media screen and (max-width: 2000px) and (min-width: 1025px) {
   body {
     width: 100%;
     height: auto;
   }
+  .center {
+    letter-spacing: 6px;
+  }
 }
 
-@media screen and (max-width: 1024px) and (min-width: 768px) {
+@media screen and (max-width: 1025px) and (min-width: 991px) {
+  .col-md-11 {
+    margin-top: 0px;
+  }
+}
+
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
   body {
     width: 102%;
     height: auto;
   }
   .centerspacingsub {
     letter-spacing: 25px;
+  }
+  .col-md-11 {
+    margin-top: -76px;
   }
 }
 
@@ -193,14 +223,11 @@ h6 {
     height: auto;
   }
   h1 {
-    font-size: 800%;
-  }
-  .centerspacingsub {
-    letter-spacing: 10px;
+    font-size: 700%;
   }
   .white {
-    letter-spacing: 15px;
-    padding-top: 50px;
+    letter-spacing: 6px;
+    padding-top: 90px;
   }
   .well {
     height: 80px;
@@ -208,5 +235,23 @@ h6 {
   }
   .header {
     width: 106%;
+  }
+  .col-md-11 {
+    width: 99%;
+  }
+  .container2 {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 350px;
+    width: 100%;
+  }
+  .container3 {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 350px;
+    width: 100%;
+  }
+  .footer {
+    letter-spacing: 4px;
   }
 }
