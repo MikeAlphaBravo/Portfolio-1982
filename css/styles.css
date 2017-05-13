@@ -17,7 +17,8 @@ body {
   background-color: #343434;
   background-image: url(../images/IMG_9385.JPG);
   background-size: 100%;
-  background-position: center;
+  top: 0;
+  left: 0;
   background-attachment: fixed;
 }
 
@@ -155,7 +156,7 @@ h6 {
   display: block;
   width: 400px;
   height: auto;
-  /* From here down I do not yet fully understand all of these codes */
+  /* CSS from here down I do not yet fully understand all of these codes outside of media queries */
   transition: .2s transform;
   transform: translateZ(0);
 }
@@ -167,4 +168,45 @@ h6 {
 .gallery div:hover img {
   transform: scale(1.7,1.7);
   transition: .3s transform;
+}
+
+@media screen and (max-width: 2000px) and (min-width: 1024px) {
+  body {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  body {
+    width: 102%;
+    height: auto;
+  }
+  .centerspacingsub {
+    letter-spacing: 25px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    width: 102%;
+    height: auto;
+  }
+  h1 {
+    font-size: 800%;
+  }
+  .centerspacingsub {
+    letter-spacing: 10px;
+  }
+  .white {
+    letter-spacing: 15px;
+    padding-top: 50px;
+  }
+  .well {
+    height: 80px;
+    width: 100%;
+  }
+  .header {
+    width: 106%;
+  }
 }
