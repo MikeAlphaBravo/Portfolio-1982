@@ -10,7 +10,13 @@ _My Website has been written for personal purposes only and is not for profit.  
 
 ## Just follow this link to view page or developer information:
 
-_{https://mikealphabravo.github.io/portfolio/index.html}_
+https://mikealphabravo.github.io/Portfolio-1982/
+
+## User experience screenshots:
+
+![alt text](/images/1982.png)
+
+![alt text](/images/1982 footer.png)
 
 ## Support and contact details
 
