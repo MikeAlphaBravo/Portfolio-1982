@@ -16,7 +16,7 @@ https://mikealphabravo.github.io/Portfolio-1982/
 
 ![alt text](/images/1982.png)
 
-![alt text](/images/1982 footer.png)
+![alt text](/images/1982footer.png)
 
 ## Support and contact details
 
