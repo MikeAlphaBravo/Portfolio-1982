@@ -13,8 +13,11 @@ _My Website has been written for personal purposes only and is not for profit.  
 https://mikealphabravo.github.io/Portfolio-1982/
 
 ## User experience screenshots:
+Main Page navbar, layout and logo
 
 ![alt text](/images/1982.png)
+
+Footer
 
 ![alt text](/images/1982footer.png)
 
